@@ -112,6 +112,23 @@ body{
 .first .product .small-images .small img{
    width:120px;
 }
+.second{
+   margin:0;
+   background-color: #13181d;
+}
+.second .product .new{
+color: var(--violet);
+}
+.second .product button{
+background-color: inherit;
+border: 1px solid var(--violet);
+color: var(--violet);
+transition: background-color 0.5s;
+}
+.second .product button:hover{
+   background-color: var(--violet);
+   color: white;
+}
 
  @media screen and (max-width:640px){
 header nav .right p{
