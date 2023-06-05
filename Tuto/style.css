@@ -129,9 +129,42 @@ transition: background-color 0.5s;
    background-color: var(--violet);
    color: white;
 }
-
+/* footer */
+footer{
+   margin: 0;
+   padding: 20px;
+   background-color: black;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+footer h3{
+   color: var(--violet);
+}
+footer p{
+   cursor: pointer;
+   color: #ccc;
+}
+footer p:hover{
+   color: white;
+}
  @media screen and (max-width:640px){
 header nav .right p{
 display: none;
+}
+.presentation .product h1{
+   font-size: 2em;
+}
+.presentation .images{
+   display: none;
+}
+.first .product .small-images .small img{
+   width: 90px;
+}
+footer{
+   justify-content: flex-start;
+}
+footer .column{
+   width: 80%;
 }
 }
